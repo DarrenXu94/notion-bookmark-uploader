@@ -4,6 +4,7 @@ const { addBlockChildren } = require("./index");
 
 const valsToAdd = [];
 
+// Change this to reference your file here
 BMParser.readFromHTMLFile("./bookmarks_31_08_2021.html").then((res) => {
   const bookmarks = res.Bookmarks.children[0].children;
 
